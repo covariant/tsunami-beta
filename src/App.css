@@ -22,6 +22,7 @@
   height: 50px;
 }
 
+
 /*  background-color: #282c34;
   height: 50px;
   font-size: calc(10px + 2vmin);
@@ -39,6 +40,9 @@
 .App-section {
   flex-grow:1;
   padding: 10px;
+  left: 200px;
+  top: 70px;
+  position:absolute;
 }
 
 .App-article {
@@ -46,6 +50,29 @@
   flex-direction: column;
   height: 100vh;
   background: #050505;
+}
+
+.App-sidebar {
+  background-color: #1B1E2C;
+  height:100vh;
+  width:100px;
+  left:0;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px 0 50px;
+}
+
+.ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.a {
+    margin: 14px 0;
+    text-align: right;
+    color: #7AD3FF;
+    text-decoration:none;
+    font-size:18px;
 }
 
 @keyframes App-logo-spin {
