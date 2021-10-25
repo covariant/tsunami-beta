@@ -1,3 +1,5 @@
+Deployed to https://tsunami-app-beta.herokuapp.com/
+
 In the project directory, you can run:
 
 ### `yarn start`
